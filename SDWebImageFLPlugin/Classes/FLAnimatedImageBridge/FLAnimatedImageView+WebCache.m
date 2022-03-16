@@ -74,8 +74,8 @@
                                strongSelf.image = animatedImage.posterImage;
                                strongSelf.animatedImage = animatedImage;
                            } else {
-                               strongSelf.image = image;
                                strongSelf.animatedImage = nil;
+                               strongSelf.image = image;
                            }
                        }
                             progress:progressBlock
