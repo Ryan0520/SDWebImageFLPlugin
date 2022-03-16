@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SDWebImageFLPlugin'
+  s.name             = 'WOPSDWebImageFLPlugin'
   s.version          = '0.5.1'
   s.summary          = 'A FLAnimatedImage plugin for SDWebImage'
 
