@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDWebImageFLPlugin'
-  s.version          = '0.5.0'
+  s.version          = '0.5.1'
   s.summary          = 'A FLAnimatedImage plugin for SDWebImage'
 
   s.description      = <<-DESC
 This project adds a plugin for FLAnimatedImage into SDWebImage, for loading animated images. FLAnimatedImage is a performant library that handles animated images rendering, while SDWebImage takes care of downloading, caching and loading the images.
                        DESC
 
-  s.homepage         = 'https://github.com/SDWebImage/SDWebImageFLPlugin'
+  s.homepage         = 'https://github.com/Ryan0520/SDWebImageFLPlugin'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'DreamPiggy' => 'lizhuoli1126@126.com' }
-  s.source           = { :git => 'https://github.com/SDWebImage/SDWebImageFLPlugin.git', :tag => s.version.to_s }
+  s.author           = { 'Ryan0520' => 'coderryan2016@gmail.com' }
+  s.source           = { :git => 'https://github.com/Ryan0520/SDWebImageFLPlugin.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
@@ -26,5 +26,5 @@ This project adds a plugin for FLAnimatedImage into SDWebImage, for loading anim
   s.module_map = 'SDWebImageFLPlugin/Module/SDWebImageFLPlugin.modulemap'
 
   s.dependency 'SDWebImage/Core', '~> 5.10'
-  s.dependency 'FLAnimatedImage', '>= 1.0.11'
+  s.dependency 'FLAnimatedImage', '>= 1.0.16'
 end
