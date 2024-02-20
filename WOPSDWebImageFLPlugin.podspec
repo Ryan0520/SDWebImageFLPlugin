@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WOPSDWebImageFLPlugin'
-  s.version          = '0.5.1'
+  s.version          = '0.5.2'
   s.summary          = 'A FLAnimatedImage plugin for SDWebImage'
 
   s.description      = <<-DESC
@@ -25,6 +25,6 @@ This project adds a plugin for FLAnimatedImage into SDWebImage, for loading anim
   s.source_files = 'SDWebImageFLPlugin/Classes/**/*', 'SDWebImageFLPlugin/Module/SDWebImageFLPlugin.h'
   s.module_map = 'SDWebImageFLPlugin/Module/SDWebImageFLPlugin.modulemap'
 
-  s.dependency 'SDWebImage/Core', '~> 5.10'
+  s.dependency 'SDWebImage/Core', '~> 5.15.5'
   s.dependency 'FLAnimatedImage', '>= 1.0.16'
 end
